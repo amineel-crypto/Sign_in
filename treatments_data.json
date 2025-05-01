@@ -1,0 +1,90 @@
+[
+    {
+        "treatment_id": 1,
+        "diagnosis_id": 1,
+        "prescription": "Lisinopril 10mg daily. Low-sodium diet. 30 min daily exercise.",
+        "start_date": "2025-04-17",
+        "end_date": "2025-07-17",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 2,
+        "diagnosis_id": 2,
+        "prescription": "No medication. Routine check-up in 6 months.",
+        "start_date": "2025-04-18",
+        "end_date": "2025-10-18",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 3,
+        "diagnosis_id": 3,
+        "prescription": "No prescription. Seasonal flu vaccination recommended.",
+        "start_date": "2025-04-16",
+        "end_date": "2025-10-16",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 4,
+        "diagnosis_id": 4,
+        "prescription": "No medication. Stress management and regular exercise.",
+        "start_date": "2025-04-17",
+        "end_date": "2025-07-17",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 5,
+        "diagnosis_id": 5,
+        "prescription": "Fludrocortisone 0.1mg daily if symptoms persist. Increase fluid intake.",
+        "start_date": "2025-04-28",
+        "end_date": "2025-05-28",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 6,
+        "diagnosis_id": 6,
+        "prescription": "No treatment required.",
+        "start_date": "2025-04-30",
+        "end_date": null,
+        "status": "Completed"
+    },
+    {
+        "treatment_id": 7,
+        "diagnosis_id": 7,
+        "prescription": "Low-calorie diet. Exercise 5x/week. Monitor BMI.",
+        "start_date": "2025-05-01",
+        "end_date": "2025-08-01",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 8,
+        "diagnosis_id": 8,
+        "prescription": "Orlistat 120mg if needed. Refer to dietician. Start weight loss program.",
+        "start_date": "2025-04-02",
+        "end_date": "2025-07-02",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 9,
+        "diagnosis_id": 9,
+        "prescription": "Lifestyle advice provided. Await lab results.",
+        "start_date": "2025-04-03",
+        "end_date": "2025-04-17",
+        "status": "Completed"
+    },
+    {
+        "treatment_id": 10,
+        "diagnosis_id": 10,
+        "prescription": "Amlodipine 5mg daily. Reduce salt and caffeine. Paracetamol for headaches.",
+        "start_date": "2025-04-23",
+        "end_date": "2025-07-23",
+        "status": "Active"
+    },
+    {
+        "treatment_id": 11,
+        "diagnosis_id": 11,
+        "prescription": "No medication. General wellness advice. Annual check-up suggested.",
+        "start_date": "2025-04-23",
+        "end_date": "2026-04-23",
+        "status": "Active"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "diagnosis_id": 1,
+        "patient_id": 2,
+        "doctor_id": 1,
+        "disease_name": "Hypertension Stage 1",
+        "notes": "Elevated systolic pressure (135/90). Recommend lifestyle changes and monitoring.",
+        "diagnosis_date": "2025-04-17T10:00:00"
+    },
+    {
+        "diagnosis_id": 2,
+        "patient_id": 3,
+        "doctor_id": 1,
+        "disease_name": "Normal",
+        "notes": "Blood pressure and BMI within normal range. No current issues.",
+        "diagnosis_date": "2025-04-18T10:00:00"
+    },
+    {
+        "diagnosis_id": 3,
+        "patient_id": 8,
+        "doctor_id": 1,
+        "disease_name": "Normal",
+        "notes": "Stable vital signs and BMI. Routine check-up advised.",
+        "diagnosis_date": "2025-04-16T10:00:00"
+    },
+    {
+        "diagnosis_id": 4,
+        "patient_id": 9,
+        "doctor_id": 1,
+        "disease_name": "Prehypertension",
+        "notes": "Systolic 125 and diastolic 85. Monitor regularly to prevent progression.",
+        "diagnosis_date": "2025-04-17T11:15:00"
+    },
+    {
+        "diagnosis_id": 5,
+        "patient_id": 20,
+        "doctor_id": 1,
+        "disease_name": "Hypotension",
+        "notes": "Low systolic/diastolic readings (102/68). Patient advised hydration and follow-up.",
+        "diagnosis_date": "2025-04-28T10:00:00"
+    },
+    {
+        "diagnosis_id": 6,
+        "patient_id": 22,
+        "doctor_id": 1,
+        "disease_name": "Normal",
+        "notes": "All readings within safe range. Continue regular health checks.",
+        "diagnosis_date": "2025-04-30T12:30:00"
+    },
+    {
+        "diagnosis_id": 7,
+        "patient_id": 23,
+        "doctor_id": 1,
+        "disease_name": "Overweight",
+        "notes": "BMI over normal limits. Advised dietary management and exercise.",
+        "diagnosis_date": "2025-05-01T09:45:00"
+    },
+    {
+        "diagnosis_id": 8,
+        "patient_id": 24,
+        "doctor_id": 1,
+        "disease_name": "Obesity Class 1",
+        "notes": "BMI indicates obesity. Recommend structured weight loss program.",
+        "diagnosis_date": "2025-04-02T14:00:00"
+    },
+    {
+        "diagnosis_id": 9,
+        "patient_id": 25,
+        "doctor_id": 1,
+        "disease_name": "Pending Evaluation",
+        "notes": "First visit. Awaiting lab test results for full assessment.",
+        "diagnosis_date": "2025-04-03T16:15:00"
+    },
+    {
+        "diagnosis_id": 10,
+        "patient_id": 38,
+        "doctor_id": 1,
+        "disease_name": "Hypertension Stage 2",
+        "notes": "Patient reported high blood pressure and headaches. Medication prescribed.",
+        "diagnosis_date": "2025-04-23T21:24:14"
+    },
+    {
+        "diagnosis_id": 11,
+        "patient_id": 39,
+        "doctor_id": 1,
+        "disease_name": "Normal",
+        "notes": "Patient in good health. No concerns at this time.",
+        "diagnosis_date": "2025-04-23T21:26:41"
+    }
+]
