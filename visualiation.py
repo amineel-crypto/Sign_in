@@ -1,6 +1,7 @@
 import customtkinter as ctk
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import tkinter as tk
 import pandas as pd
 import json
 import os
@@ -31,6 +32,7 @@ df = pd.merge(df, df_treatments, on="diagnosis_id", how="left")
 # --- Preprocess Data ---
 df["date_of_birth"] = pd.to_datetime(df["date_of_birth"])
 df["age"] = (pd.to_datetime("2025-05-05") - df["date_of_birth"]).dt.days // 365
+
 
 def categorize_bmi(bmi):
     if bmi < 18.5: return "Underweight"
@@ -68,7 +70,10 @@ ctk.set_default_color_theme("green")
 app = ctk.CTk()
 app.title("Healthcare Dashboard")
 app.geometry("1300x900")
-
+try:
+    app.iconbitmap("icon_web.ico")
+except tk.TclError:
+    print("Favicon file 'favicon.ico' not found.")
 # Main Frame (Dark Background)
 main_frame = ctk.CTkFrame(app, fg_color="#1A1A1A")
 main_frame.pack(fill="both", expand=True, padx=10, pady=10)
